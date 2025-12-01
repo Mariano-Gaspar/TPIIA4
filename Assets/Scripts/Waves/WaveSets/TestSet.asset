@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a027378d5e19514593e0a4432913192, type: 3}
+  m_Name: TestSet
+  m_EditorClassIdentifier: Assembly-CSharp::WaveSet
+  waves:
+  - enemies:
+    - enemyPrefab: {fileID: 7997141337750751457, guid: 08671618bc4f01a4086f156d58e44d9d, type: 3}
+      enemyAmount: 1
+    - enemyPrefab: {fileID: 7997141337750751457, guid: e7d2718d44efc4d468f9f96bce5ec25b, type: 3}
+      enemyAmount: 1
+    - enemyPrefab: {fileID: 7997141337750751457, guid: d1161713c23f8784290d19aff9e49f70, type: 3}
+      enemyAmount: 1
+    - enemyPrefab: {fileID: 5793170644273325663, guid: cb9e43a329460eb4aa0beadcce353f51, type: 3}
+      enemyAmount: 1
+    - enemyPrefab: {fileID: 5793170644273325663, guid: d44ec433f90b528408924e425a578ca1, type: 3}
+      enemyAmount: 1
+    - enemyPrefab: {fileID: 8196820813211189664, guid: 52216c4800167eb4691e2e40e009a126, type: 3}
+      enemyAmount: 1
+    spawnRate: 0.2
